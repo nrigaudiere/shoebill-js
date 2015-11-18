@@ -1,0 +1,31 @@
+{
+  "name": "shoebill-js",
+  "version": "1.0.0",
+  "description": "Module to generate different kind of meta for SEO (open graph and twitter cards)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrigaudiere/shoebill-js.git"
+  },
+  "keywords": [
+    "seo",
+    "meta",
+    "tags",
+    "open",
+    "graph",
+    "twitter",
+    "card"
+  ],
+  "author": "nrigaudiere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrigaudiere/shoebill-js/issues"
+  },
+  "homepage": "https://github.com/nrigaudiere/shoebill-js",
+  "dependencies": {
+    "html-entities": "^1.2.0"
+  }
+}
