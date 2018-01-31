@@ -8,12 +8,12 @@ $ npm install --save shoebill-js
 ```
 
 
-##Usage
+## Usage
 
-###JavaScript
-```
+###J avaScript
+```js
 /* Require and initialise the module*/
-var ShoebillJS = require('shoebill-js'); 
+var ShoebillJS = require('shoebill-js');
 var sbjs = new ShoebillJS();
 
 /* Generate your Metas */
@@ -21,7 +21,7 @@ sbjs.ogtitle('MyTitle');
 sbjs.ogtype('website');
 sbjs.ogsitename('My Website');
 sbjs.ogdescription('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.');
-sbjs.ogurl('http://www.myurl.com'); 
+sbjs.ogurl('http://www.myurl.com');
 sbjs.ogimage({
     url: 'http://myurl.com/img/mylogo.png',
     width: 300,
@@ -36,8 +36,8 @@ var metaTags = sbjs.toHTML();
 /* Use metaTags variable and send your meta to your template ! */
 ```
 
-###HTML Render
-```
+### HTML Render
+```html
 <head>
 	<meta property="og:title" content="MyTitle">
 	<meta property="og:type" content="website">
@@ -53,7 +53,7 @@ var metaTags = sbjs.toHTML();
 </head>
 ```
 
-The available meta are the following : 
+The available meta are the following :
 
 	- og:title
 	- og:type
@@ -65,17 +65,17 @@ The available meta are the following :
 	- og:locale:alternate
 	- og:image
 		- og:image:url
-		- og:image:secure_url 
+		- og:image:secure_url
 		- og:image:type
 		- og:image:width
 		- og:image:height
 	- og:video
-		- og:video:secure_url 
+		- og:video:secure_url
 		- og:video:type
 		- og:video:width
 		- og:video:height
 	- og:audio
-		- og:audio:secure_url 
+		- og:audio:secure_url
 		- og:audio:type
 
 	- twitter:card
